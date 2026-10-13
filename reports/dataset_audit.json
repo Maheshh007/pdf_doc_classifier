@@ -1,0 +1,7 @@
+{
+  "total_files":393,
+  "extraction_failed":1,
+  "empty_or_too_short(<8 words)":2,
+  "duplicate_texts":2,
+  "label_conflicts(same text, different label)":1
+}

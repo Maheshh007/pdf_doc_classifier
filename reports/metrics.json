@@ -1,0 +1,94 @@
+{
+  "cv_macro_f1": {
+    "tfidf+LogReg": [
+      0.9945,
+      0.0111
+    ],
+    "tfidf+LinearSVC": [
+      0.9947,
+      0.0107
+    ],
+    "tfidf+NaiveBayes": [
+      0.9974,
+      0.0053
+    ]
+  },
+  "selected": "tfidf+LogReg",
+  "holdout": {
+    "n_test": 78,
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  "synthetic_to_real": {
+    "n_test": 20,
+    "accuracy": 0.7,
+    "per_class": {
+      "bill": [
+        0,
+        2
+      ],
+      "receipt": [
+        14,
+        18
+      ]
+    }
+  },
+  "real_leave_one_out": {
+    "n": 20,
+    "accuracy": 0.95,
+    "per_class": {
+      "bill": [
+        1,
+        2
+      ],
+      "receipt": [
+        18,
+        18
+      ]
+    }
+  },
+  "top_terms": {
+    "bill": [
+      "rs",
+      "reading",
+      "meter",
+      "may",
+      "money longnum",
+      "previous",
+      "meter reading",
+      "wss",
+      "rs money",
+      "in",
+      "current",
+      "usage"
+    ],
+    "invoice": [
+      "invoice",
+      "money num",
+      "worth",
+      "money money",
+      "vat",
+      "net",
+      "num money",
+      "money each",
+      "each",
+      "description",
+      "price",
+      "each money"
+    ],
+    "receipt": [
+      "longnum money",
+      "st",
+      "subtotal money",
+      "oo",
+      "money tax",
+      "ee",
+      "total money",
+      "es",
+      "tax money",
+      "tel",
+      "tel num",
+      "num main"
+    ]
+  }
+}

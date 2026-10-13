@@ -1,0 +1,16 @@
+streamlit
+scikit-learn
+pandas
+joblib
+pdfplumber
+pypdfium2
+pytesseract
+opencv-python-headless
+pillow
+numpy
+matplotlib
+reportlab
+
+# optional, only for src/fetch_datasets.py
+requests
+datasets

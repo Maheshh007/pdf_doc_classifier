@@ -1,0 +1,3 @@
+file,label,extraction_method,n_words,error
+invoice/syn_corrupt.pdf,invoice,failed,0,PdfiumError: Failed to load document (PDFium: Data format error).
+bill/syn_blank.pdf,bill,ocr,0,
